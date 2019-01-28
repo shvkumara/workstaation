@@ -2,6 +2,8 @@ package 'tree' do
 	action :install
 end
 
+package 'nano'
+
 package 'ntp'
 
 file '/etc/motd' do 
